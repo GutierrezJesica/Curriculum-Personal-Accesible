@@ -63,11 +63,11 @@ nav{
     position: relative;
 }
 
-nav button{
+nav a{
     color: #333333;
     font-size:20px;
 }
-nav button :hover{
+nav a :hover{
     color:#fcfcfc;
 }
 
