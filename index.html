@@ -137,7 +137,7 @@
 
 <!-- FOOTER-->
 <footer>
-    <button class="pdf" href="https://github.com/GutierrezJesica/Curriculum-Personal-Accesible/blob/main/CV-GutierrezJesica.pdf"> <i class="fa-solid fa-file-pdf"></i> Descargar CV</button>
+    <button class="pdf" onclick="descargarPDF()"><i class="fa-solid fa-file-pdf"></i>Descargar CV</button>
     <div class="iconos">
         <a href="https://github.com/GutierrezJesica"><i class="fa-brands fa-github"></i></a>
         <a href="https://behance.net/gutierrezjesica"><i class="fa-brands fa-behance"></i></a>
@@ -163,6 +163,10 @@
             document.documentElement.classList.remove('transition');
         }, 1000)
     }
+    function descargarPDF(){
+        window.open("https://drive.google.com/file/d/1R6P9FuYO9BN-3SxGfqpmzgoZeo1gbv2U/view?usp=drive_link")
+    }
+
 
 </script>
     </body>
